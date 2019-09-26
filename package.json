@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "ispeak",
+  "description": "My application description",
+  "version": "1.0.0",
+  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "electron-serve": "^0.4.0",
+    "electron-store": "^5.0.0"
+  },
+  "devDependencies": {
+    "electron": "^6.0.10",
+    "electron-builder": "^21.2.0",
+    "next": "^9.0.6",
+    "nextron": "^5.11.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
